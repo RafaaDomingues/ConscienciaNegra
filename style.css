@@ -6,3 +6,11 @@
     --color-link: #8C1007;
     --font-tittle:  font-family: "Imperial Script", cursive;
 }
+
+body {
+    background: linear-gradient(#FFF0C4, #3E0703);
+}
+
+header {
+    background-color: var(--fundo-secundario);
+}
