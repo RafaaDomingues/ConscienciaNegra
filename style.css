@@ -1,16 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 :root {
-    --fundo_principal: #FFF0C4;
+    --fundo_principal: #fefbf4;
     --fundo-secundario: #3E0703;
     --color-tittle: #660B05;
     --color-link: #8C1007;
-    --font-tittle:  font-family: "Imperial Script", cursive;
+    --font-tittle: "Cinzel", serif;
+    --font-h2: "Imperial Script", cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background: linear-gradient(#FFF0C4, #3E0703);
+    background-color: var(--fundo_principal);
 }
 
 header {
     background-color: var(--fundo-secundario);
+    height: 80px;
+    text-align: center;
+}
+
+.sub-titulo{
+    text-align: center;
+    font-size: 1em;
+}
+
+h1 {
+    padding: 20px;
+    color: var(--fundo_principal);
+    font-family: var(--font-tittle);
+}
+
+h2 {
+    position: relative;
+    color: var(--color-tittle);
+    font-size: 3em;
+    top: 10vh;
+    left: 35vh;
+    font-family: var(--font-h2);
+    max-width: 60vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-width: 130vh;
+    padding: 5vh;
+    margin-left: 40vh;
+    gap: 40px;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 1.2em;
+}
+
+img {
+    width: 50vh;
+}
+
+.projetos-historia, 
+.figuras-historicas,
+.musicas {
+    margin: 40px;
+}
+
+h3 {
+    font-family: var(--font-h2);
+    font-size: 3em;
+    text-align: center;
+    color: var(--color-tittle);
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    font-size: 1.2em;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-link);
+    max-width: 160vh;
+    position: relative;
+    left: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+}
+
+
+footer {
+    height: 100px;
+    background-color: var(--fundo-secundario);
+    text-align: center;
+    padding: 40px;
+    color: var(--fundo_principal);
+    font-size: 0.9em;
 }
