@@ -2,7 +2,7 @@ import { animate, utils, stagger, splitText } from 'animejs';
 
 const colors = [];
 
-splitText('h1', {
+splitText('p', {
   lines: true,
 })
 /* Registering an animation to the split */
