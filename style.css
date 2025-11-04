@@ -43,7 +43,7 @@ h2 {
     position: relative;
     color: var(--color-tittle);
     font-size: 3em;
-    top: 10vh;
+    top: 6vh;
     left: 35vh;
     font-family: var(--font-h2);
     max-width: 60vh;
@@ -65,7 +65,7 @@ p{
 }
 
 img {
-    width: 50vh;
+    width: 55vh;
 }
 
 .projetos-historia, 
