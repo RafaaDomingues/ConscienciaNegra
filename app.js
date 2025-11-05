@@ -5,14 +5,7 @@ const colors = [];
 splitText('p', {
   lines: true,
 })
-/* Registering an animation to the split */
-.addEffect(({ lines }) => animate(lines, {
-  y: ['50%', '-50%'],
-  loop: true,
-  alternate: true,
-  delay: stagger(400),
-  ease: 'inOutQuad',
-}))
+
 /* Registering a callback to the split */
 .addEffect(split => {
   split.words.forEach(($el, i) => {
