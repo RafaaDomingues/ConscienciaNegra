@@ -1,7 +1,7 @@
 const button = document.getElementById('back-to-top-button');
 
 const ChegarAoTopo = () => {
-    const scrollDuration = 600; // Duração em milissegundos
+    const scrollDuration = 600; // Deixar mais suave
     const scrollStep = -window.scrollY / (scrollDuration / 15);
     
     const scrollInterval = setInterval(() => {
@@ -13,7 +13,7 @@ const ChegarAoTopo = () => {
     }, 15);
 }
 
-// Mostrar/esconder o botão conforme o scroll
+
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
         button.style.display = 'flex';
@@ -22,5 +22,5 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Adicionar evento de clique ao botão
+
 button.addEventListener('click', ChegarAoTopo);
