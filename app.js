@@ -1,7 +1,7 @@
 const button = document.getElementById('back-to-top-button');
 
 const ChegarAoTopo = () => {
-    const scrollDuration = 600; // Deixar mais suave
+    const scrollDuration = 400; // Deixar mais suave
     const scrollStep = -window.scrollY / (scrollDuration / 15);
     
     const scrollInterval = setInterval(() => {
