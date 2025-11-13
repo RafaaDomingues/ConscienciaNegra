@@ -115,6 +115,7 @@ header::before {
 }
 
 h1 {
+    font-size: 1rem;
     padding: 20px;
     color: var(--fundo_principal);
     font-family: var(--font-tittle);
