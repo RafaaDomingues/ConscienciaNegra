@@ -95,7 +95,7 @@ body {
 
 header {
     background: var(--fundo-secundario);
-    height: 5rem;
+    height: 6rem;
     text-align: center;
     animation: fadeInDown 0.8s ease-out;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
